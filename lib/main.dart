@@ -37,7 +37,7 @@ class RandomWords extends StatefulWidget {
 class _RandomWordsState extends State<RandomWords> {
   @override
   Widget build(BuildContext context) {
-    final wordPair = WordPair.random(123);
+    final wordPair = WordPair.random();
     return Text(wordPair.asPascalCase);
   }
 }

@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return const MaterialApp(
       title: 'Startup Name Generator',
       home: RandomWords(),
@@ -30,9 +31,11 @@ class RandomWords extends StatefulWidget {
 
 class _RandomWordsState extends State<RandomWords> {
   final _suggestions = <WordPair>[];
+  final _saved = <WordPair>{};     // NEW
   final _biggerFont = const TextStyle(fontSize: 18.0);
 
-  @override
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -58,5 +61,6 @@ class _RandomWordsState extends State<RandomWords> {
       ),
     );
   }
+
 }
 

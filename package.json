@@ -1,0 +1,22 @@
+{
+  "name": "telegram-ton-miniapp-betting",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Telegram Mini App for wagering on games with TON escrow",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:backend": "pnpm --filter backend run dev",
+    "dev:frontend": "pnpm --filter frontend run dev",
+    "dev:bot": "pnpm --filter bot run dev",
+    "dev:contracts": "pnpm --filter contracts run dev",
+    "build": "pnpm --filter frontend run build && pnpm --filter backend run build",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "pnpm --filter backend run test && pnpm --filter contracts run test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

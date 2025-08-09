@@ -1,0 +1,26 @@
+{
+  "home": {
+    "title": "Game Lobby",
+    "createRoom": "Create Room",
+    "noRooms": "No rooms available. Create one!",
+    "stake": "Stake",
+    "game": "Game",
+    "privacy": "Privacy",
+    "public": "Public",
+    "private": "Private",
+    "submit": "Submit"
+  },
+  "room": {
+    "title": "Room",
+    "waiting": "Waiting for another player...",
+    "start": "Start Game",
+    "leave": "Leave Room"
+  },
+  "match": {
+    "title": "Match",
+    "yourTurn": "Your turn",
+    "opponentTurn": "Opponent's turn",
+    "youWon": "You won!",
+    "youLost": "You lost."
+  }
+}

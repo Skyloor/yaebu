@@ -1,0 +1,19 @@
+{
+  "name": "contracts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Run contract tests using pnpm test'",
+    "build": "echo 'Compile Tact contracts here'",
+    "test": "node --loader ts-node/esm test/escrow.test.ts"
+  },
+  "dependencies": {
+    "@ton/core": "^0.0.5",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.4.1"
+  },
+  "type": "module"
+}
